@@ -1,0 +1,48 @@
+.container_gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding: 40px;
+    gap: 20px;
+    width: 100%;
+    margin-bottom: 55px;
+    height: 830px;
+    background-color: #f6f6f6;
+    border-radius: 25px;
+    justify-items: center;
+    align-items: center;
+    position: relative;
+}
+
+.gallery-button {
+    position: absolute;
+    top: 95%;
+    margin: 0;
+    padding: 0;
+    background-color: #f6f6f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: none;
+}
+
+.gallery-button {
+    position: absolute;
+    top: 96%;
+    background-color: #f6f6f6;
+    color: #111;
+    cursor: pointer;
+    border: none;
+    z-index: 5;
+}
+
+#nextButton {
+    right: 20px;
+}
+
+#prevButton {
+    left: 20px;
+}
+
+

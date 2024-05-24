@@ -1,0 +1,9 @@
+.container_header {
+  width: 90%;
+  height: 68px;
+  margin: 45px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
