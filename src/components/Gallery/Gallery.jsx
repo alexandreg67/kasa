@@ -5,15 +5,12 @@ import Card from "../Card/Card";
 import { useState } from "react";
 
 
+const cardsPage = 6;
+const totalCards = data.length;
 
 export default function Gallery() {
 
-    // console.log(data);
-
     const [currentIndex, setCurrentIndex] = useState(0);
-
-    const cardsPage = 6;
-    const totalCards = data.length;
     
     const prevCards = () => {
       setCurrentIndex((currentIndex - cardsPage + totalCards) % totalCards);
@@ -31,7 +28,7 @@ export default function Gallery() {
         return data.slice(currentIndex, totalCards).concat(data.slice(0, end - totalCards));
     };
 
-    const visibleCards = getVisibleCards();
+    const [visibleCards, setVisibleCards] = useState(getVisibleCards());
 
     return (
 
