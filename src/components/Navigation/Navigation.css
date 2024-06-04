@@ -13,3 +13,7 @@ a {
     font-weight: 500;
     color: #000;
 }
+
+.active {
+    text-decoration: underline;
+}

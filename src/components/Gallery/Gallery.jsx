@@ -10,25 +10,27 @@ const totalCards = data.length;
 
 export default function Gallery() {
 
-    const [currentIndex, setCurrentIndex] = useState(0);
+    // const [currentIndex, setCurrentIndex] = useState(0);
     
-    const prevCards = () => {
-      setCurrentIndex((currentIndex - cardsPage + totalCards) % totalCards);
-    };
+    // const prevCards = () => {
+    //   setCurrentIndex((currentIndex - cardsPage + totalCards) % totalCards);
+    // };
   
-    const nextCards = () => {
-      setCurrentIndex((currentIndex + cardsPage) % totalCards);
-    };
+    // const nextCards = () => {
+    //   setCurrentIndex((currentIndex + cardsPage) % totalCards);
+    // };
   
-    const getVisibleCards = () => {
-        const end = currentIndex + cardsPage;
-        if (end <= totalCards) {
-          return data.slice(currentIndex, end);
-        }
-        return data.slice(currentIndex, totalCards).concat(data.slice(0, end - totalCards));
-    };
+    // const getVisibleCards = () => {
+    //     const end = currentIndex + cardsPage;
+    //     if (end <= totalCards) {
+    //       return data.slice(currentIndex, end);
+    //     }
+    //     return data.slice(currentIndex, totalCards).concat(data.slice(0, end - totalCards));
+    // };
 
-    const [visibleCards, setVisibleCards] = useState(getVisibleCards());
+    // const [visibleCards, setVisibleCards] = useState(getVisibleCards());
+
+    const visibleCards = data.slice(0, cardsPage)
 
     return (
 
@@ -36,7 +38,7 @@ export default function Gallery() {
           {visibleCards.map((item) => (
             <Card key={item.id} id={item.id} title={item.title} cover={item.cover} />
           ))}
-        {totalCards > cardsPage && (
+        {/* {totalCards > cardsPage && (
             <>
             <button id="prevButton" className="gallery-button" onClick={prevCards}>
               Précédent
@@ -45,7 +47,7 @@ export default function Gallery() {
               Suivant
             </button>
             </>
-        )}
+        )} */}
         </div>
     );
   }

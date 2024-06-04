@@ -10,8 +10,18 @@
     background-color: #f6f6f6;
     border-radius: 25px;
     justify-items: center;
+    justify-content: center;
     align-items: center;
     position: relative;
+}
+
+@media screen and (max-width: 1280px) {
+    .container_gallery {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        height: 1300px;
+    }
+    
 }
 
 .gallery-button {

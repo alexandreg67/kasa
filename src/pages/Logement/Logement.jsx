@@ -23,7 +23,7 @@ export default function Logement() {
       return navigate("/error");
     }
     setLogement(_logement);
-  }, []);
+  }, [id, navigate]);
   
   return (
 
