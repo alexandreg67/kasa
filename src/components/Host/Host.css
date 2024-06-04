@@ -1,0 +1,27 @@
+.hostContainer {
+    display: flex;
+    align-items: center;
+    text-align: end;
+}
+
+
+img.hostPicture {
+    object-fit: cover;
+    border-radius: 50%;
+    width: 64px;
+    height: 64px;
+    margin-left: 10px;
+}
+
+.spanHostPicture {
+    display: block;
+    font-size: 1.25em;
+    margin-right: 10px;
+}
+
+.firstLastName {
+    color: #FF6060;
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+}

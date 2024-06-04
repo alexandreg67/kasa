@@ -10,7 +10,7 @@ export default function Error() {
     <div className="container-error">
       <h1 className="error-title">404</h1>
       <h2 className="error-txt">Oups! La page que vous demandez n&apos;existe pas.</h2>
-      <Link to="/" className="error-link">Retour à l accueil</Link>
+      <Link to="/" className="error-link">Retourner sur la page d&apos;accueil</Link>
     </div>
     <Footer />
   </div>

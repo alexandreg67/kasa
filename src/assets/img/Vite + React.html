@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<!-- saved from url=(0039)http://localhost:5173/logement/c67ab8a7 -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <script type="module">import { injectIntoGlobalHook } from "/@react-refresh";
+injectIntoGlobalHook(window);
+window.$RefreshReg$ = () => {};
+window.$RefreshSig$ = () => (type) => type;</script>
+
+    <script type="module" src="./Vite + React_files/client"></script>
+
+    
+    <link rel="icon" type="image/svg+xml" href="http://localhost:5173/vite.svg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vite + React</title>
+  <style type="text/css" data-vite-dev-id="D:/Alex/Openclassrooms/Projets/projet_7/kasa/src/components/Footer/Footer.css">.container_footer {
+    background-color: black;
+    width: 100%;
+    height: 210px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.copyright {
+    color: white;
+    font-size: 1.5em;
+    font-weight: 500;
+    margin-top: 40px;
+}</style><style type="text/css" data-vite-dev-id="D:/Alex/Openclassrooms/Projets/projet_7/kasa/src/components/Header/Header.css">.container_header {
+  width: 90%;
+  height: 68px;
+  margin: 45px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}</style><style type="text/css" data-vite-dev-id="D:/Alex/Openclassrooms/Projets/projet_7/kasa/src/components/Navigation/Navigation.css">ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 1rem 2rem;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    padding-left: 50px;
+    font-size: 1.5em;
+    font-weight: 500;
+    color: #000;
+}</style><style type="text/css" data-vite-dev-id="D:/Alex/Openclassrooms/Projets/projet_7/kasa/src/components/Body/Body.css">.container_body {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}</style><style type="text/css" data-vite-dev-id="D:/Alex/Openclassrooms/Projets/projet_7/kasa/src/components/Banner/Banner.css">.container_banner {
+  position: relative;
+  width: 100%;
+  height: 223px;
+  margin: 0 auto 55px;
+  overflow: hidden;
+  border-radius: 25px;
+}
+
+.img_banner {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  box-shadow: 0px 4px 4px 0px #00000040;
+  background-color: rgba(0,0,0,0.6);
+  border-radius: 25px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6); 
+}
+
+.container_banner h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+  font-size: 3em;
+  font-weight: 700;
+  text-align: center;
+  z-index: 1; 
+  color: #fff;
+}
+
+
+
+
+
+</style><style type="text/css" data-vite-dev-id="D:/Alex/Openclassrooms/Projets/projet_7/kasa/src/components/Gallery/Gallery.css">.container_gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding: 40px;
+    gap: 20px;
+    width: 100%;
+    margin-bottom: 55px;
+    height: 830px;
+    background-color: #f6f6f6;
+    border-radius: 25px;
+    justify-items: center;
+    align-items: center;
+    position: relative;
+}
+
+.gallery-button {
+    position: absolute;
+    top: 95%;
+    margin: 0;
+    padding: 0;
+    background-color: #f6f6f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: none;
+}
+
+.gallery-button {
+    position: absolute;
+    top: 96%;
+    background-color: #f6f6f6;
+    color: #111;
+    cursor: pointer;
+    border: none;
+    z-index: 5;
+}
+
+#nextButton {
+    right: 20px;
+}
+
+#prevButton {
+    left: 20px;
+}
+
+
+</style><style type="text/css" data-vite-dev-id="D:/Alex/Openclassrooms/Projets/projet_7/kasa/src/components/Card/Card.css">.card {
+    position: relative;
+    width: 340px;
+    height: 340px;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.coverImg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.card h2 {
+    position: absolute;
+    bottom: 1em;
+    left: 1em;
+    font-size: 1em;
+    font-weight: 700;
+    text-align: center;
+    z-index: 1;
+    color: #fff;
+}</style><style type="text/css" data-vite-dev-id="D:/Alex/Openclassrooms/Projets/projet_7/kasa/src/pages/Error/Error.css">.container-error {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.error-title {
+    font-size: 263px;
+    color: #FF6060;
+}
+
+.error-txt {
+    color: #FF6060;
+    margin: 50px auto;
+}
+
+.container-error a {
+    font-size: 1.1em;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+
+.error-link {
+    text-decoration: underline;
+}</style><style type="text/css" data-vite-dev-id="D:/Alex/Openclassrooms/Projets/projet_7/kasa/src/components/Collapse/Collapse.css">.collapse-header {
+    width: 100%;
+    color: white;
+    background: #FF6060;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.collapse-header img {
+    cursor: pointer;
+}
+
+.collapse-container {
+    width: 80%;
+    margin: 20px auto;
+    overflow: hidden;
+}
+  
+.collapse-arrow {
+    transition: transform 0.3s ease;
+}
+
+.collapse-arrow.open {  
+    transform: rotate(180deg);
+}
+
+.collapse-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+}
+
+.collapse-content.open {
+    max-height: max-content; 
+}
+
+.collapse-content-inner {
+    padding: 10px;
+    background-color: #f6f6f6;
+}</style><style type="text/css" data-vite-dev-id="D:/Alex/Openclassrooms/Projets/projet_7/kasa/src/pages/Logement/Logement.css">.container-logement {
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.container-collapse {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    margin-bottom: 50px ;
+}
+
+.title-logement {
+    font-size: 2.25em;
+    color: #FF6060;
+    padding: 10px 0;
+}
+
+.content-logement {
+    position: relative;
+}
+
+.location-logement {
+    font-size: 1.25em;
+    color: #000;
+}
+
+.equipmentsList {
+    list-style-type: none;
+}
+
+.container-tags {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.hostRating {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    right: 0px;
+    top: 20px;
+    gap: 20px;
+}
+</style><style type="text/css" data-vite-dev-id="D:/Alex/Openclassrooms/Projets/projet_7/kasa/src/components/Slideshow/Slideshow.css">.slider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    height: 415px;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+img .img-logement {
+    position: relative;
+    width: 100%;
+    margin: 0 auto 20px;
+    height: 415px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.arrow {
+	position: absolute;
+    height: 60px;
+    cursor: pointer;
+}
+.arrow_left {
+	left: 10px;
+}
+.arrow_right {
+	right: 10px;
+}
+
+.pagesNumber {
+	position: absolute;
+	bottom: 20px;
+	display: flex;
+    font-weight: 500;
+    font-size: 1.125em;
+    color: #fff;
+}</style><style type="text/css" data-vite-dev-id="D:/Alex/Openclassrooms/Projets/projet_7/kasa/src/components/Tag/Tag.css">.tagName {
+    background-color: #FF6060;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 0.5em 1.5em;
+    color: white;
+}</style><style type="text/css" data-vite-dev-id="D:/Alex/Openclassrooms/Projets/projet_7/kasa/src/components/Host/Host.css">.hostContainer {
+    display: flex;
+    align-items: center;
+    text-align: end;
+}
+
+
+img.hostPicture {
+    object-fit: cover;
+    border-radius: 50%;
+    width: 64px;
+    height: 64px;
+    margin-left: 10px;
+}
+
+.spanHostPicture {
+    display: block;
+    font-size: 1.25em;
+    margin-right: 10px;
+}
+
+.firstLastName {
+    color: #FF6060;
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+}</style><style type="text/css" data-vite-dev-id="D:/Alex/Openclassrooms/Projets/projet_7/kasa/src/components/Rating/Rating.css"></style><style type="text/css" data-vite-dev-id="D:/Alex/Openclassrooms/Projets/projet_7/kasa/src/index.css">*, ::before, ::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}</style></head>
+  <body>
+    <div id="root"><div><div class="container_header"><img src="./Vite + React_files/Logo.png" alt="Logo du site"><nav><ul><li><a href="http://localhost:5173/">Accueil</a></li><li><a href="http://localhost:5173/apropos">A propos</a></li></ul></nav></div><div class="container-logement"><div class="slider"><img class="img-logement" src="./Vite + React_files/accommodation-20-1.jpg" alt="Appartement cosy"><img class="arrow arrow_left" src="./Vite + React_files/arrow_left.png" alt="fleche pour aller à gauche"><img class="arrow arrow_right" src="./Vite + React_files/arrow_right.png" alt="fleche pour aller à droite"><p class="pagesNumber">1/5</p></div><div class="content-logement"><h1 class="title-logement">Appartement cosy</h1><p class="location-logement">Ile de France - Paris 17e</p><div class="container-tags"><div class="tagName">Batignolle</div><div class="tagName">Montmartre</div></div><div class="hostRating"><div class="hostContainer"><div class="firstLastName"><span class="spanHostPicture">Nathalie</span><span class="spanHostPicture">Jean</span></div><img class="hostPicture" src="./Vite + React_files/profile-picture-12.jpg" alt="photo de l&#39;hôte"></div><div><img src="./Vite + React_files/grey-star.svg" alt="" style="
+    color: red;
+    width: 20px;
+    height: 20px;
+"></div></div><div class="container-collapse"><div class="collapse-container"><div class="collapse-header"><h2>Description</h2><img class="collapse-arrow false" src="./Vite + React_files/arrow_back.png" alt="fleche d&#39;ouverture et de fermeture du collapse"></div><div class="collapse-content false"><div class="collapse-content-inner">Votre maison loin de chez vous. Que vous veniez de l'autre bout du monde, ou juste de quelques stations de RER, vous vous sentirez chez vous dans notre appartement.</div></div></div><div class="collapse-container"><div class="collapse-header"><h2>Equipements</h2><img class="collapse-arrow false" src="./Vite + React_files/arrow_back.png" alt="fleche d&#39;ouverture et de fermeture du collapse"></div><div class="collapse-content false"><div class="collapse-content-inner"><li class="equipmentsList">Équipements de base</li><li class="equipmentsList">Micro-Ondes</li><li class="equipmentsList">Douche italienne</li><li class="equipmentsList">Frigo</li><li class="equipmentsList">WIFI</li></div></div></div></div></div></div><div class="container_footer"><img src="./Vite + React_files/Logo_footer.png" alt="Logo du site"><p class="copyright">© 2020 Kasa. All rights reserved</p></div></div></div>
+    <script type="module" src="./Vite + React_files/main.jsx"></script>
+  
+
+<div class="cgw-ext" data-ext-id="pdnenlnelpdomajfejgapbdpmjkfpjkp"></div><div class="cgw_main_container" style="font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;; line-height: 18px;"><template shadowrootmode="open"><div class="absolute hidden" style="top: 0px; left: 0px; display: none;"><div style="border-radius: 5px; background: white; box-shadow: rgba(15, 15, 15, 0.05) 0px 0px 0px 1px, rgba(15, 15, 15, 0.1) 0px 3px 6px, rgba(15, 15, 15, 0.2) 0px 9px 24px; z-index: 9999990; pointer-events: auto; position: relative;"><div class="text-neutral-700" style="font-size: 14px; line-height: 1.2;"><div style="display: inline-flex; align-items: stretch; height: 32px; overflow: hidden;"><div role="button" tabindex="0" class="inline-flex items-center gap-[5px]" style="user-select: none; transition: background 20ms ease-in 0s; cursor: pointer; display: flex; align-items: center; border-radius: 0px; padding-left: 7px; padding-right: 8px; white-space: nowrap; box-shadow: rgba(55, 53, 47, 0.09) 1px 0px 0px; margin-right: 1px;"><div><svg id="Layer_1" version="1.1" viewBox="0 0 16 16" fill="currentColor" height="14px" width="14px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M7,5V3c0-0.515-0.435-1-1-1C5.484,2,5.258,2.344,5,2.586L0.578,7C0.227,7.359,0,7.547,0,8s0.227,0.641,0.578,1L5,13.414  C5.258,13.656,5.484,14,6,14c0.565,0,1-0.485,1-1v-2h2c1.9,0.075,4.368,0.524,5,2.227C14.203,13.773,14.625,14,15,14  c0.563,0,1-0.438,1-1C16,7.083,12.084,5,7,5z"></path></svg></div><div class="font-medium">ChatGPT Writer</div></div><div role="button" tabindex="0" class="inline-flex items-center" style="user-select: none; transition: background 20ms ease-in 0s; cursor: pointer; display: flex; align-items: center; border-radius: 0px; padding-left: 7px; padding-right: 8px; white-space: nowrap; box-shadow: none; margin-right: 0px;"><div><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="h-3 w-3"><path fill-rule="evenodd" d="M7.84 1.804A1 1 0 018.82 1h2.36a1 1 0 01.98.804l.331 1.652a6.993 6.993 0 011.929 1.115l1.598-.54a1 1 0 011.186.447l1.18 2.044a1 1 0 01-.205 1.251l-1.267 1.113a7.047 7.047 0 010 2.228l1.267 1.113a1 1 0 01.206 1.25l-1.18 2.045a1 1 0 01-1.187.447l-1.598-.54a6.993 6.993 0 01-1.929 1.115l-.33 1.652a1 1 0 01-.98.804H8.82a1 1 0 01-.98-.804l-.331-1.652a6.993 6.993 0 01-1.929-1.115l-1.598.54a1 1 0 01-1.186-.447l-1.18-2.044a1 1 0 01.205-1.251l1.267-1.114a7.05 7.05 0 010-2.227L1.821 7.773a1 1 0 01-.206-1.25l1.18-2.045a1 1 0 011.187-.447l1.598.54A6.993 6.993 0 017.51 3.456l.33-1.652zM10 13a3 3 0 100-6 3 3 0 000 6z" clip-rule="evenodd"></path></svg></div></div></div></div></div></div></template></div></body></html>

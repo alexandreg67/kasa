@@ -35,6 +35,6 @@ export default function Collapse({ title, content }) {
 }
 
 Collapse.propTypes = {
-    title: PropTypes.string,
-    content: PropTypes.string,
+    title: PropTypes.any,
+    content: PropTypes.any,
 };

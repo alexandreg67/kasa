@@ -1,0 +1,8 @@
+.tagName {
+    background-color: #FF6060;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 0.5em 1.5em;
+    color: white;
+}
