@@ -7,3 +7,10 @@
   align-items: center;
   padding: 20px 0;
 }
+
+@media screen and (max-width: 400px){
+  .container_header {
+    margin: 20px auto;
+  }
+  
+}

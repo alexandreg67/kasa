@@ -37,6 +37,38 @@
   color: #fff;
 }
 
+@media screen and (max-width: 768px){
+  .container_banner h1 {
+    font-size: 2em;
+    text-align: start;
+  }
+
+  .container_banner {
+    height: 150px;
+  }
+}
+
+@media screen and (max-width: 600px){
+  .container_banner h1 {
+    font-size: 1.5em;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 90%;
+  }
+
+  .container_banner {
+    height: 111px;
+  }
+}
+
+@media screen and (max-width: 400px){
+  .container_banner {
+    margin-bottom: 10px;
+  }
+  
+}
+
 
 
 

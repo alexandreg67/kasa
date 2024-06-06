@@ -15,3 +15,15 @@
     font-weight: 500;
     margin-top: 40px;
 }
+
+@media screen and (max-width: 400px){
+    .copyright {
+        width: 134px;
+        font-size: 12px;
+        margin-top: 10px;
+    }
+
+    .copyright p {
+        padding: 10px;
+    }
+}

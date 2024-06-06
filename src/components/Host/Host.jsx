@@ -6,8 +6,6 @@ export default function Host({ hostName, hostPicture }) {
     const firstName = hostName.split(' ')[0];
     const lastName = hostName.split(' ')[1];
 
-
-    
     return (
         <div className='hostContainer'>
             <div className='firstLastName'>

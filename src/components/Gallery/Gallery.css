@@ -24,35 +24,28 @@
     
 }
 
-.gallery-button {
-    position: absolute;
-    top: 95%;
-    margin: 0;
-    padding: 0;
-    background-color: #f6f6f6;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-    border: none;
+@media screen and (max-width: 960px) {
+    .container_gallery {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        height: 1300px;
+    }
 }
 
-.gallery-button {
-    position: absolute;
-    top: 96%;
-    background-color: #f6f6f6;
-    color: #111;
-    cursor: pointer;
-    border: none;
-    z-index: 5;
+@media screen and (max-width: 600px){
+    .container_gallery {
+        background-color: #FFFFFF;
+        padding: 10px;
+        gap: 10px;
+        height: 100%;
+    } 
 }
 
-#nextButton {
-    right: 20px;
-}
-
-#prevButton {
-    left: 20px;
+@media screen and (max-width: 400px){
+    .container_gallery {
+        margin-bottom: 10px;
+    } 
+    
 }
 
 

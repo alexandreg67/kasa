@@ -1,8 +1,10 @@
 .collapse-header {
     width: 100%;
-    color: white;
+    color: #FFFFFF;
+    font-size: 1.5em;
+    font-weight: 700;
     background: #FF6060;
-    padding: 10px 20px;
+    padding: 5px 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -40,4 +42,33 @@
 .collapse-content-inner {
     padding: 10px;
     background-color: #f6f6f6;
+}
+
+
+@media screen and (max-width: 768px){
+    .collapse-header {
+        font-size: 18px;
+    }
+    
+}
+
+@media screen and (max-width: 600px){
+    .collapse-header {
+        height: 30px;
+        font-size: 13px;
+    }
+
+    .collapse-container {
+        width: 100%;
+        margin: 20px auto 10px;
+    }
+    
+}
+
+@media screen and (max-width: 400px){
+    .collapse-content-inner {
+        font-size: 12px;
+        font-weight: 400;
+    }
+    
 }
