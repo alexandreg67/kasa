@@ -1,41 +1,39 @@
-import React, { useEffect } from 'react';
 import data from '../../data/data.json';
 import './Gallery.css';
 import Card from "../Card/Card";
-import { useState } from "react";
 
 
-const cardsPage = 6;
+// const cardsPage = 6;
 // const totalCards = data.length;
 
 export default function Gallery() {
 
-    const [cardsPage, setCardsPage] = useState(6)
+    // const [cardsPage, setCardsPage] = useState(6)
 
-    useEffect(() => {
-      const handleResize = () => {
-        if (window.innerWidth < 963) {
-          setCardsPage(3);
-        } else {
-          setCardsPage(6);
-        }
-      };
+    // useEffect(() => {
+    //   const handleResize = () => {
+    //     if (window.innerWidth < 963) {
+    //       setCardsPage(3);
+    //     } else {
+    //       setCardsPage(6);
+    //     }
+    //   };
 
-      handleResize();
+    //   handleResize();
 
-      window.addEventListener("resize", handleResize);
+    //   window.addEventListener("resize", handleResize);
 
-      return () => {
-        window.removeEventListener("resize", handleResize);
-      };
-    }, []);
+    //   return () => {
+    //     window.removeEventListener("resize", handleResize);
+    //   };
+    // }, []);
     
-    const visibleCards = data.slice(0, cardsPage)
+    // const visibleCards = data.slice(0, cardsPage)
 
     return (
 
         <div className="container_gallery">
-          {visibleCards.map((item) => (
+          {data.map((item) => (
             <Card key={item.id} id={item.id} title={item.title} cover={item.cover} />
           ))}
         </div>

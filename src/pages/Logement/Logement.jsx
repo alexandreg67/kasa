@@ -50,8 +50,8 @@ export default function Logement() {
             </div>
 
             <div className="container-collapse">
-              <Collapse title="Description" content={logement.description} />
-              <Collapse title="Equipements" content={logement.equipments.map((e, index) => {
+              <Collapse title="Description" content={logement.description} size="medium" />
+              <Collapse title="Equipements" size="medium" content={logement.equipments.map((e, index) => {
                 return <li className="equipmentsList" key={index}>{e}</li>
               })} />
             </div>

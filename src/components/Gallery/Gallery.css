@@ -6,7 +6,7 @@
     gap: 20px;
     width: 100%;
     margin-bottom: 55px;
-    height: 830px;
+    /* height: 830px; */
     background-color: #f6f6f6;
     border-radius: 25px;
     justify-items: center;
@@ -19,7 +19,7 @@
     .container_gallery {
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr;
-        height: 1300px;
+        /* height: 1300px; */
     }
     
 }
@@ -28,7 +28,7 @@
     .container_gallery {
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr 1fr;
-        height: 1300px;
+        /* height: 1300px; */
     }
 }
 
@@ -37,7 +37,7 @@
         background-color: #FFFFFF;
         padding: 10px;
         gap: 10px;
-        height: 100%;
+        /* height: 100%; */
     } 
 }
 

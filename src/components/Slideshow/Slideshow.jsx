@@ -32,7 +32,7 @@ export default function Slideshow({ logement }) {
     return (
         <div className="slider">
             <img className="img-logement" src={pictures[index]} alt={logement.title} />
-            {pictures.length > 0 && (
+            {pictures.length > 1 && (
                 <>
                     <img onClick={() => updateSlide("left")} className="arrow arrow_left" src={arrow_left} alt="fleche pour aller à gauche" />
                     <img onClick={() => updateSlide("right")} className="arrow arrow_right" src={arrow_right} alt="fleche pour aller à droite" />

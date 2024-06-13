@@ -22,7 +22,7 @@ export default function Apropos() {
       <div className='container_body'>
         <Banner imgageSrc={srcImg} titleBanner={title} />
         {sections.map((section, index) => (
-          <Collapse key={index} title={section.title} content={section.content}></Collapse>
+          <Collapse size="large" key={index} title={section.title} content={section.content}></Collapse>
         ))}
       </div>
       <Footer />

@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import './Collapse.css';
 import arrow from '../../assets/img/arrow_back.png';
 
-export default function Collapse({ title, content }) {
+export default function Collapse({ title, content, size }) {
 
     // utilisation de useState pour gérer l'ouverture et la fermeture du collapse
     const [isOpen, setIsOpen] = useState(false);
@@ -19,7 +19,7 @@ export default function Collapse({ title, content }) {
 
     <div className="collapse-container">
         <div className="collapse-header" >
-            <h2>{title}</h2>
+            <h2 className={size}>{title}</h2>
             <img
                 onClick={toggleCollapse}
                 className={`collapse-arrow ${isOpen && 'open'}`}
@@ -37,4 +37,5 @@ export default function Collapse({ title, content }) {
 Collapse.propTypes = {
     title: PropTypes.any,
     content: PropTypes.any,
+    size: PropTypes.string
 };

@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'Montserrat';
+  src: url(./assets/fonts/Montserrat/Montserrat-Regular.ttf);
+}
+
 *, ::before, ::after {
   box-sizing: border-box;
   padding: 0;
