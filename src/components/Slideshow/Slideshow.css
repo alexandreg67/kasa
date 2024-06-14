@@ -39,3 +39,10 @@ img.img-logement {
     font-size: 1.125em;
     color: #fff;
 }
+
+@media screen and (max-width: 400px) {
+    .pagesNumber {
+        display: none;
+    }
+    
+}

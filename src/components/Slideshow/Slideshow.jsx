@@ -11,7 +11,7 @@ export default function Slideshow({ logement }) {
     const pictures = logement.pictures;
 
     console.log(logement);
-
+ 
     const updateSlide = (direction) => {
     
         if (direction === 'left') {

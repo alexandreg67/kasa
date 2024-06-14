@@ -1,5 +1,5 @@
 import './Navigation.css';
-import { Link, NavLink } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 export default function Navigation() {
   return (
@@ -11,7 +11,8 @@ export default function Navigation() {
       </NavLink>
 
       <NavLink 
-        to="/apropos">
+        to="/apropos"
+        className={({isActive}) => `${isActive && "active"}`} >
         A propos
       </NavLink>
     </nav>
